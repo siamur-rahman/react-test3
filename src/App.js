@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+
       <Person></Person>
       <Person></Person>
       <Person></Person>
@@ -29,7 +30,7 @@ function Person() {
   }
   return (
     <div style={person}>
-
+      <p style={{ backgroundColor: 'red' }}>similer in look similer in data</p>
       <h1>Name: Sakib All Hasan</h1>
       <h4>Profession:Cricketer</h4>
     </div>
@@ -44,7 +45,7 @@ function Family() {
       backgroundColor: 'skyblue',
       border: '8px solid red',
       margin: '20px',
-      borderRadious: '20 px'
+      borderRadius: '20 px'
     }}>
       <h1>wife: Shishir</h1>
       <h4>child:3</h4>
